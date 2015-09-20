@@ -3,7 +3,7 @@
  <web-app>      
 	<servlet>         
  		<servlet-name>HiLoGameServlet</servlet-name>         
-		 <servlet-class>com.funkygames.funkyhilo.web.HiLoGameServlet
+		 <servlet-class>com.funkygames.funkyhilo.web.FunkyHiloServlet
 		 </servlet-class>     
 	 </servlet>        
 	<servlet-mapping>        
