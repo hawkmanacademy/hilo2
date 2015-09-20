@@ -21,7 +21,7 @@ public class WebMessageService implements MessageService {
 	@Override
 	public void displayMessage(String message) {
 		try {
-			resp.getWriter().write("hello web!");
+			resp.getWriter().write("\n" + message);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

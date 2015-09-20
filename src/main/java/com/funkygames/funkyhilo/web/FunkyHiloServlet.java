@@ -32,7 +32,6 @@ public class FunkyHiloServlet extends HttpServlet {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		resp.getWriter().write("hello web!");
 	}
 	
 	private static void playGame(MessageService messageService,
